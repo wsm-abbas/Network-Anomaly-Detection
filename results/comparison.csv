@@ -1,0 +1,4 @@
+model,precision,recall,f1,false_alarm_rate,false_alarms,missed_attacks
+xgboost,0.909,0.963,0.935,0.004,23,9
+xgboost (cutoff 0.8),0.933,0.929,0.931,0.0028,16,17
+isolation_forest,0.52,0.963,0.675,0.037,213,9
